@@ -39,7 +39,34 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/speech/master/_listings/aws-polly/action-synthesizespeech-get.md
+- name: AWS Polly API Synthesize Speech
+  description: Synthesizes UTF-8 input, plain text or SSML, to a stream of bytes.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-polly.jpg
+  humanURL: https://aws.amazon.com/polly/
+  baseURL: http:://{host}//
+  tags: Speech
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/speech/master/_listings/aws-polly/action-synthesizespeech-get.md
 x-common:
+- type: x-authentication
+  url: http://docs.aws.amazon.com/polly/latest/dg/authentication-and-access-control.html
+- type: x-customers
+  url: https://aws.amazon.com/polly/customers/
+- type: x-documentation
+  url: http://docs.aws.amazon.com/polly/latest/dg/API_Reference.html
+- type: x-faq
+  url: https://aws.amazon.com/polly/faqs/
+- type: x-getting-started
+  url: https://aws.amazon.com/polly/getting-started/
+- type: x-logging
+  url: http://docs.aws.amazon.com/polly/latest/dg/logging-using-cloudtrail.html
+- type: x-monitoring
+  url: http://docs.aws.amazon.com/polly/latest/dg/cloud-watch.html
+- type: x-pricing
+  url: https://aws.amazon.com/polly/pricing/
+- type: x-website
+  url: https://aws.amazon.com/polly/
 - type: x-authentication
   url: http://docs.aws.amazon.com/polly/latest/dg/authentication-and-access-control.html
 - type: x-customers
