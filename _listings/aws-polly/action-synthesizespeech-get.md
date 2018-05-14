@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Polly API
+  title: AWS Polly API Synthesize Speech
   version: 1.0.0
+  description: Synthesizes UTF-8 input, plain text or SSML, to a stream of bytes.
 schemes:
 - http
 produces:
